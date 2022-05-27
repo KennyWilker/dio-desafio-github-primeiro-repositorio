@@ -1,0 +1,45 @@
+Entendendo Métodos Java
+
+O método - é o que faz o software funcionar, toda a execusão do software está dentro dos seus métodos.
+
+1 - entender o que é um método - é uma porção de código que é disponibilizada por uma classe. 
+Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um 
+determinado comportamento.
+	* Padrão de definição
+		<?visibilidade?><?tipo?><?modificador?> retorno nome (<?parâmetros?>)<?exceções?>corpo
+		O que está entre ? é opcional
+	* Assinatura 
+		é a forma de identificar unicamente o método.
+		é definido pelo seu nome + paramétros
+	* Costrutor e Destrutor
+		são métodos especiais usados na Orientação a Objetos 
+	* Mensagem 
+		é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto
+		uma classe
+	* Pssagem de parâmetros
+		por valor (cópia)
+		por referencia (endereço)
+	* Boas práticas
+		nomes devem ser descritivos, mas curtos
+		notação camelo
+		Deve possuir entre 80 e 120 linhas
+		Evite lista de parâmetros longas
+		Visibilidade adequadas
+	* Sobrecarga de método
+		é o ato de manter o nome do método e alterar seus parâmetros.		
+	* Sobrecasrga x Sobrescrita
+		para sobreescrever um método é preciso herda-lo.
+	* Retornos
+		é uma instrução de interrupção.
+		O método executa seu retorno quando:
+			- Completa todas suas instruções internas.
+			- Chega a uma declaração explícita de retorno.
+			- Lança uma excessão
+		Considerações
+			- o tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto.
+			- O tipo de dado do return deve ser compatível com o do método
+			- Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execusão
+
+2 - saber como definir e utilizar métodos
+
+3 - aplicar boas práticas em sua criação e uso
