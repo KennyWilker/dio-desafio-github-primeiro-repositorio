@@ -1,0 +1,65 @@
+Programação Orientada a Objetos
+
+Por que usar?
+"Orientação a objeto - A Orientação a Objetos é um paradigma de análise, projeto e programação
+de sistemas de software baseado na composição e interação entre diversas unidades de software
+chamadas de objetos."
+
+Pilares:
+1 - Abstração - "processo pelo qual se isolam características de um objeto, considerando os que 
+tenham em comum certos grupos de objetos."
+2 - Reuso - "é a capacidade de criar novas unidade de código a partir de outras já existentes."
+3 - Encapsulamento - "é a capacidade de esconder complexidade e proteger dados."
+
+Exercitando
+Levando em consideração uma loja on-line de livros, modelando uma entidade livro:
+Livro - Tema, Ano de publicação, assunto, Edição, Autor, Edidotra, Quantidade de páginas, Título,
+	  ISBN, Sub-Título.
+
+Classe - O bjetirvo de uma classe é servir de mmolde, um modelo do mundo real.
+Exemplos: Bola, Carro, Venda, Viagem, Computador, Comprador.
+Dicas:
+	- São basicamentes substantivos.
+	- Possuem nomes significativo.
+	- Contexto deve ser considerado.
+
+Atributo - Responsavel a caracteriza as classes e futuros objetos.
+Atributo x Variavel 
+Atributo - O que é próprio e peculiar a alguém ou a alguma coisa.
+Variavél - Sujeito a variações ou mudanças; que pode variar; inconstante, instavel.
+Dicas:
+	- Substantivo e adjetivos.
+	- Nome significativo.
+	- Contexto deve ser considerado.
+	- Abstração.
+	- Tipos adequados.
+
+Método - Usado para prover as açoes dos objetos.
+Dois métodos especiais:
+	- Construtor - serve para construir os objetos, atravez dele é possivél criar objetos das classes.
+	- Destrutor - serve para auxiliar a destruição de um objeto.
+	- Sobrecarga - mudar a assinatura de acordo com a necessidade (nome + parâmetros), basicamente,
+		     	   é feita preservando o nome e mudando ou adicionado atributos.
+
+Objeto - são instancias de classe.
+Mensagem - é a solicitação que um método excute, é a troca de mensagem entre objetos e classes que faz o sistema funiconar.
+
+Herança - a principal existencia da herança é a criação de sub-tipos.
+Herança Simples - A classe filha tem só uma classe mãe.
+Herança multipla - A classe filha tem uma ou mais classes mães.
+Upcast - Quando uma classe sobe na hierarqui até chegar na classe mais generica
+Downcast - Quando se desce na hierarqui das classes.
+
+Polimorfismo x Sobreescrita
+Polimorfismo - Capaciade de um mesmo método se comportar de maneira diferente.
+Sobrescrita - Capacidade de um mesmo método se ou não comportar de maneira diferente.
+
+Associação - As classes e objetos se interagem entre si para atingir os objetivos.
+Tipos:
+	Estrutural - se manifesta nos atributos e pode ser do tipo Composição e agragação
+	Comportamental - tem a ver com os métodos e é chamado de dependência.
+
+Interface - é um contrato que diz que qualquer classe implemente uma interface, a classe tem obrigatoriamente
+	      utilizar todos os métodos que essa interface disponibiliza.
+
+Pacotes - serve para separar e classificar as classes, serve como organizador.
